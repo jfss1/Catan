@@ -11,10 +11,10 @@ package catan;
  * Criação da Classe, Novos metodos(throwDice(), diceValue())
  */
 public class Dice {
-    //int dice;
+    
     
     private int throwDice(){
-        return ((int)Math.random()*6)+1;
+        return ((int)Math.random()*5)+1;
     }
     
     public int diceValue(){
