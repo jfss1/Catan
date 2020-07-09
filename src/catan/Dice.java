@@ -8,8 +8,16 @@ package catan;
 /**
  *
  * @author José Sampaio
- * Criaçao da Classe
+ * Criação da Classe, Novos metodos(throwDice(), diceValue())
  */
 public class Dice {
+    //int dice;
     
+    private int throwDice(){
+        return ((int)Math.random()*6)+1;
+    }
+    
+    public int diceValue(){
+        return throwDice() + throwDice();
+    }
 }
