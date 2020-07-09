@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author hp
+ * @author José Sampaio
  */
 public class Catan extends Application {
     
